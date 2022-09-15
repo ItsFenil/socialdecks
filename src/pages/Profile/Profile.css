@@ -1,0 +1,35 @@
+.Profile{
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 600px){
+    .Profile{
+      grid-template-columns: 30rem;
+    }
+  }
+
+  @media screen and (max-width: 450px){
+    .Profile{
+      grid-template-columns: 100vw;
+    }
+  }
+
+
+.Profile-center{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+}
+
+@media screen and (max-width: 600px){
+  .Profile-center, .ProfileRight{
+      margin-right: 2rem;;
+    }
+  }
+
+ 
